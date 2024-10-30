@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x:hidden;
 }
 
 html {
@@ -136,7 +137,7 @@ h2 {
 	line-height:1.3;
 }
 
-.main img, .main video {
+.main img, .main video, .main .video {
 	width:60vw;
 	height:60vh;
 	object-fit: cover;
@@ -230,7 +231,7 @@ h2 {
 		transform: translateY(-5vh);
 	}
 
-	.main img, video {
+	.main img, video, .main .video {
 		width:100%;
 		height:30vh;
 	}

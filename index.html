@@ -24,17 +24,16 @@
 				<p>
 					DESIGN AND PRESENTATION SKILLS. VIDEO EDITING TASK AND PRESENTATION THROUGH TEXT AND DESIGN.
 				</p>
-				<a href="" onmouseover="bigCursor();" onmouseleave="returnCursorToNormal()">LEARN MORE</a>
+				<a onmouseover="bigCursor();" onmouseleave="returnCursorToNormal()" onclick="document.getElementById('content').scrollIntoView(true);">SCROLL DOWN</a>
 			</div>
 			<div class="button-container">
-				<a class="round-button">WATCH VIDEO</a>
-				<a class="round-button">READ REFLECTION</a>
+				<a class="round-button" onclick="document.getElementById('content').scrollIntoView(true);">SCROLL DOWN</a>
 			</div>
 		</div>
 	</div>
-	<div class="main">
+	<div class="main" id="content">
 		<div class="video-container">
-			<img src="planet.jpg" onmouseover="expandCursor('PLAY VIDEO')" onmouseleave="returnCursorToNormal()">
+			<iframe class="video" src="https://www.youtube.com/embed/p_HUwt-wXtw?si=dZRpq-22KPx9PuZj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 			<h3>CLIMATE CHANGE PRESENTS ITSELF AS ONE OF THE BIGGEST CHALLENGES FOR MODERN CIVILISATION</h3>
 		</div>
 		<h1>VIDEO DESCRIPTION</h1>
